@@ -11,7 +11,7 @@
 
 # 4. Questions We Hope to Answer
 ## Given our data sets we hope to answer the following:
-## 1. What genre of game sells best?
-## 2. What seasons do games sell the best?
-## 3. What region games sell the best?
-## 4. Overall comparisons between genre, console types, dates sold, and regions sold in.
+### 1. What genre of game sells best?
+### 2. What seasons do games sell the best?
+### 3. What region games sell the best?
+### 4. Overall comparisons between genre, console types, dates sold, and regions sold in.
