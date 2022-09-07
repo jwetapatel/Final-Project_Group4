@@ -1,4 +1,4 @@
-# Final-Project_Group4
+# Video Game Sales by Region/Genre/Console
 
 # 1. Selected Topic 
 ## Video Game Sales based on Genre vs Region
