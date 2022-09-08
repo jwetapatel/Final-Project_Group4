@@ -15,3 +15,21 @@ Video Game Sales analysis by Genres and Regions
 - We want to know which console is preferred the most based on different regions. 
 - We will compile results from all over the world and determine if any regional trends might shape the gaming industry as a whole.
 - It's great stress relief and some games are just so much fun to play , Enjoyment for all age people.
+
+ate with 'origin/Jweta'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    Github_guide/LFS_LINK.txt
+        modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Anaylysis report_Questions and answers.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+jweta@LAPTOP-Q30N1J6N MINGW64 ~/desktop/module_20/Final-Project_Group4 (Jweta)
+$ git add .
+
