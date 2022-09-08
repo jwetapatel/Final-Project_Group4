@@ -1,6 +1,5 @@
 # Final-Project_Group4
 
-# Final-Project_Group4
 
 Video Game Sales analysis by Genres and Regions
 
