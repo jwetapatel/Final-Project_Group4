@@ -7,7 +7,7 @@
  
 - we will be laying the foundation for our analysis by processing and exploring a large amount of data on video game sales.
 - The dataset contains information regarding the sales of video games across various regions like North America, Europe, Japan and also globally, while also giving information regarding the Names, Publishers and Platforms. 
-- This dataset has been made available to Kaggle which is the home for many such datasets and competitions.
+
 
 ## 2. Reason why they selected their topic :
 
@@ -17,7 +17,9 @@
 - It's great stress relief and some games are just so much fun to play , Enjoyment for all age people.
 
  ## 3. Description of Source Data
-- Our data is comprised from three different data sets found online. These datasets have video game titles, genres, console types, of games sold, dates, and region it sold in.
+ 
+ - This dataset has been made available to Kaggle which is the home for many such datasets and competitions.
+ - Our data is comprised from three different data sets found online. These datasets have video game titles, genres, console types, of games sold, dates, and region it   sold in.
 
 ## 4. Questions We Hope to Answer
 - Given our data sets we hope to answer the following:
