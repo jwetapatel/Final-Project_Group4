@@ -35,7 +35,7 @@
 
 ## Discriptions of the communication Protocols
 
-- We communicate our project related task through Slack and via zoom meetings.
+- We communicate our project related tasks through Slack and via zoom meetings.
 - Each team member give their regular updates about the progress and changes via slack messages.
 
  
