@@ -2,7 +2,9 @@
 
 Video Game Sales analysis by Genres and Regions
 
-Tableue public link : https://public.tableau.com/app/profile/jweta.patel/viz/VideoGameSalesAnalysis_16632764228110/YearvsPlatformandRegionssales?publish=yes
+Tableue public link : 
+https://public.tableau.com/app/profile/jweta.patel/viz/VideoGameSalesAnalysis_16632764228110/GenreVsRegionwithaddedfilters?publish=yes
+
 
 
  1. Selected topic:
