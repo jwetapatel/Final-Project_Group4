@@ -2,6 +2,9 @@
 
 Video Game Sales analysis by Genres and Regions
 
+Tableue public link : https://public.tableau.com/app/profile/jweta.patel/viz/VideoGameSalesAnalysis_16632764228110/YearvsPlatformandRegionssales?publish=yes
+
+
  1. Selected topic:
  
 - we will be laying the foundation for our analysis by processing and exploring a large amount of data on video game sales.
