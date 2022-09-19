@@ -1,7 +1,6 @@
 
 # Final-Project_Group4
 
- 1. Selected topic:
 
 # Video Game Sales analysis based on Genre vs Region
 
