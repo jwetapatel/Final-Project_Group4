@@ -1,6 +1,7 @@
 
 # Final-Project_Group4
 
+ 1. Selected topic:
 
 # Video Game Sales analysis based on Genre vs Region
 
@@ -8,6 +9,7 @@
 
 
  ## 1. Selected topic:
+
  
 - we will be laying the foundation for our analysis by processing and exploring a large amount of data on video game sales.
 - The dataset contains information regarding the sales of video games across various regions like North America, Europe, Japan and also globally, while also giving information regarding the Names, Publishers and Platforms. 
