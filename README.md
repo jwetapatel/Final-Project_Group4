@@ -33,7 +33,7 @@
  3. What region games sell the best?
  4. Overall comparisons between genre, console types, dates sold, and regions sold in?
 
-## Discriptions of the communication Protocols
+## Descriptions of the Communication Protocols
 
 - We communicate our project related tasks through Slack and via zoom meetings.
 - Each team member give their regular updates about the progress and changes via slack messages.
