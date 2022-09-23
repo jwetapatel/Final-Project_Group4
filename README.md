@@ -33,8 +33,15 @@ that will take place****
 X_train, X_test, y_train, y_test = train_test_split(X, y, train_size = 0.7, test_size = 0.3, random_state = 100)
 This means that the test size was 30% of the data. No additional training will be conducted in the future. 
 
-✓ Description of current accuracy score 
+***Description of current accuracy score***
 
+- Currently the accuracy scores for each prediction are as follows:
+Na Sales: 0.092
+EU Sales: 0.056
+JP Sales: 0.045
+GS Sales: 0.075
+
+This does however mean that the accuracy is weaker than would be liked. 
 
  
 
