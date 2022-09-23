@@ -5,21 +5,18 @@
 - The data was cleaned and filtered to display the three primary consoles for this analysis. 
 Data from two other sources were combined in order to create the database and add additional data points. 
 
-![data exploration sales and scatter plot](https://user-images.githubusercontent.com/103790879/191971560-293900ce-b05a-4073-afa0-00153c326f0f.png)
-The scatter plot above shows that there is a linear relationship.
-
-![exploration heatmap](https://user-images.githubusercontent.com/103790879/191971596-0b8abd50-f4c5-436b-ac25-cda98cf8d3ed.png)
-The heat map helps to serve as further evidence that there is a relationship.
-
-***Description of preliminary feature engineering and preliminary feature selection, including their decision-making process***
+***Description of preliminary feature engineering and preliminary feature selection, including their decision-making process and Description of how data was split into training and testing sets******
 
 - Once in python, the global and other countries categories were combined in order to create one. In order to 
 conduct the analysis of genre and sales by country, dummy variables were generated to change the 
 object data type to numeric. A heat map and scatter plot were developed in order to determine the relationship if any 
 existed between the desired test variables. 
 
+![data exploration sales and scatter plot](https://user-images.githubusercontent.com/103790879/191971560-293900ce-b05a-4073-afa0-00153c326f0f.png)
+The scatter plot above shows that there is a linear relationship.
 
-***Description of how data was split into training and testing sets***
+![exploration heatmap](https://user-images.githubusercontent.com/103790879/191971596-0b8abd50-f4c5-436b-ac25-cda98cf8d3ed.png)
+The heat map helps to serve as further evidence that there is a relationship.
 
 - Ultimately, the primary goal was to create a sales projection based on genre and region. In order to do this
 the data was split into training variables by 0.4. This decision was based on research from different 
@@ -39,8 +36,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, train_size = 0.7, test
 This means that the test size was 30% of the data. No additional training will be conducted in the future, however other variables such as different random states and test size were tried. These variables were however, less effective than the above ones. 
 
 ***Description of final accuracy score***
-
-OLS Regression Results                            
+                          
 ==============================================================================
 Dep. Variable:               NA_Sales   R-squared:                       0.092
 Model:                            OLS   Adj. R-squared:                  0.070
@@ -51,7 +47,7 @@ No. Observations:                 484   AIC:                             905.6
 Df Residuals:                     472   BIC:                             955.8
 Df Model:                          11                                         
 Covariance Type:            nonrobust                                         
-================================================================================
+
                    coef    std err          t      P>|t|      [0.025      0.975]
 --------------------------------------------------------------------------------
 const            0.2291      0.046      4.933      0.000       0.138       0.320
@@ -66,18 +62,17 @@ Shooter          0.5752      0.096      6.010      0.000       0.387       0.763
 Simulation      -0.1606      0.235     -0.684      0.495      -0.622       0.301
 Sports           0.1881      0.091      2.072      0.039       0.010       0.366
 Strategy        -0.1891      0.208     -0.908      0.364      -0.598       0.220
-==============================================================================
+
 Omnibus:                      393.827   Durbin-Watson:                   1.809
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):             7172.279
 Skew:                           3.503   Prob(JB):                         0.00
 Kurtosis:                      20.509   Cond. No.                         13.2
-==============================================================================
+
 
 Notes:
 [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-----------------------------------------------------------------------------------------------
 
-  OLS Regression Results                            
+                           
 ==============================================================================
 Dep. Variable:               EU_Sales   R-squared:                       0.056
 Model:                            OLS   Adj. R-squared:                  0.034
@@ -88,7 +83,7 @@ No. Observations:                 484   AIC:                             976.6
 Df Residuals:                     472   BIC:                             1027.
 Df Model:                          11                                         
 Covariance Type:            nonrobust                                         
-================================================================================
+
                    coef    std err          t      P>|t|      [0.025      0.975]
 --------------------------------------------------------------------------------
 const            0.2244      0.050      4.489      0.000       0.126       0.323
@@ -103,17 +98,17 @@ Shooter          0.4307      0.103      4.183      0.000       0.228       0.633
 Simulation      -0.1472      0.253     -0.582      0.561      -0.644       0.349
 Sports           0.2110      0.098      2.161      0.031       0.019       0.403
 Strategy        -0.2010      0.224     -0.897      0.370      -0.641       0.239
-==============================================================================
+
 Omnibus:                      533.502   Durbin-Watson:                   1.923
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):            26816.547
 Skew:                           5.135   Prob(JB):                         0.00
 Kurtosis:                      37.990   Cond. No.                         13.2
-==============================================================================
+
 
 Notes:
 [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-----------------------------------------------------------------------------------------------
- OLS Regression Results                            
+
+                         
 ==============================================================================
 Dep. Variable:               JP_Sales   R-squared:                       0.045
 Model:                            OLS   Adj. R-squared:                  0.023
@@ -124,7 +119,7 @@ No. Observations:                 484   AIC:                            -603.6
 Df Residuals:                     472   BIC:                            -553.4
 Df Model:                          11                                         
 Covariance Type:            nonrobust                                         
-================================================================================
+
                    coef    std err          t      P>|t|      [0.025      0.975]
 --------------------------------------------------------------------------------
 const            0.0244      0.010      2.499      0.013       0.005       0.044
@@ -139,17 +134,16 @@ Shooter          0.0329      0.020      1.636      0.102      -0.007       0.072
 Simulation      -0.0016      0.049     -0.032      0.975      -0.099       0.096
 Sports          -0.0105      0.019     -0.549      0.583      -0.048       0.027
 Strategy        -0.0144      0.044     -0.329      0.742      -0.101       0.072
-==============================================================================
+
 Omnibus:                      658.221   Durbin-Watson:                   2.013
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):            81625.084
 Skew:                           7.004   Prob(JB):                         0.00
 Kurtosis:                      65.059   Cond. No.                         13.2
-==============================================================================
+
 
 Notes:
 [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
------------------------------------------------------------------------------------------------
-OLS Regression Results                            
+                  
 ==============================================================================
 Dep. Variable:           Global_Sales   R-squared:                       0.075
 Model:                            OLS   Adj. R-squared:                  0.054
@@ -160,7 +154,7 @@ No. Observations:                 484   AIC:                             1730.
 Df Residuals:                     472   BIC:                             1781.
 Df Model:                          11                                         
 Covariance Type:            nonrobust                                         
-================================================================================
+
                    coef    std err          t      P>|t|      [0.025      0.975]
 --------------------------------------------------------------------------------
 const            0.5522      0.109      5.070      0.000       0.338       0.766
@@ -175,17 +169,17 @@ Shooter          1.1746      0.224      5.234      0.000       0.734       1.616
 Simulation      -0.3636      0.551     -0.660      0.509      -1.446       0.719
 Sports           0.4527      0.213      2.127      0.034       0.034       0.871
 Strategy        -0.4722      0.488     -0.967      0.334      -1.432       0.488
-==============================================================================
+
 Omnibus:                      456.702   Durbin-Watson:                   1.861
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):            14181.013
 Skew:                           4.146   Prob(JB):                         0.00
 Kurtosis:                      28.188   Cond. No.                         13.2
-==============================================================================
+
 
 Notes:
 [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-------------------------------------------------------------------------------------------------
 
+------------------------------------------------------------------------------------------------------------------
 - This does however mean that the accuracy is weaker than would be liked, however when these above variables were adjusted there was not a signifigant change. 
 
 - The p values do indicate that there is a relationship between sales in a particular region and the genre of a videogame. 
