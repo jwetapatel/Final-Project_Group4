@@ -251,3 +251,21 @@ The final regression model predictions are below:
 
 ![GS_regression Prediction](https://user-images.githubusercontent.com/103790879/191972010-244f7722-2b9b-4039-b991-3b8e3ce5f12a.png)
 
+
+## Dashboard Links :
+
+https://public.tableau.com/app/profile/diana.villarreal1441/viz/VideoGamesSalesAnalysis-Group4/Dashboard14?publish=yes
+
+https://public.tableau.com/app/profile/diana.villarreal1441/viz/VideoGamesSalesAnalysis-GroupGenreYear/Dashboard12?publish=yes
+
+https://public.tableau.com/app/profile/diana.villarreal1441/viz/VideoGamesSalesAnalysis-GroupSales/Dashboard1?publish=yes
+
+https://public.tableau.com/app/profile/diana.villarreal1441/viz/VideoGamesSalesAnalysis-Group4TopGames/Dashboard13?publish=yes
+
+
+
+
+
+
+
+
