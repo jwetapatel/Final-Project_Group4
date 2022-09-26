@@ -1,9 +1,5 @@
 
-# VideoGameSalesAnalysis_based-on-Genre-vs-Region
-
-
 # Final-Project_Group4
-
 
 # Video Game Sales analysis based on Genre vs Region
 
