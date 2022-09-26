@@ -71,11 +71,10 @@ sales analysis conducted and our own data set. The reminder of the data points w
 - For this analysis linear regression was the model choice selected. It is a supervised machine learning model that allows for target prediction of the independent variable. Since this model can determine if a specific genre of game will sale better in a different region this model a good choice for this analysis. One of the 
 main limitations of this model is the reliance on linear relationships. It is based on the assumption that the relationships at their core are linearly connected, however this may not truly be the case.
 
-### Description of how they have trained the model thus far, and any additional training
-that will take place
+### Description of how they have trained the model thus far, and any additional training that will take place
 
 - To keep consistent the data was split as shown below:
-- 
+ 
 X_train, X_test, y_train, y_test = train_test_split(X, y, train_size = 0.7, test_size = 0.3, random_state = 100)
 This means that the test size was 30% of the data. No additional training will be conducted in the future, however other variables such as different random states and test size were tried. These variables were however, less effective than the above ones. 
 
