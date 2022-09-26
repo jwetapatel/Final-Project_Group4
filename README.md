@@ -41,12 +41,12 @@
 
 # Machine Learning
 
-***Description of preliminary data preprocessing***
+*** Description of preliminary data preprocessing***
 
 - The data was cleaned and filtered to display the three primary consoles for this analysis. 
 Data from two other sources were combined in order to create the database and add additional data points. 
 
-***Description of preliminary feature engineering and preliminary feature selection, including their decision-making process and Description of how data was split into training and testing sets******
+*** Description of preliminary feature engineering and preliminary feature selection, including their decision-making process and Description of how data was split into training and testing sets
 
 - Once in python, the global and other countries categories were combined in order to create one. In order to 
 conduct the analysis of genre and sales by country, dummy variables were generated to change the 
@@ -54,9 +54,11 @@ object data type to numeric. A heat map and scatter plot were developed in order
 existed between the desired test variables. 
 
 ![data exploration sales and scatter plot](https://user-images.githubusercontent.com/103790879/191971560-293900ce-b05a-4073-afa0-00153c326f0f.png)
+
 The scatter plot above shows that there is a linear relationship.
 
 ![exploration heatmap](https://user-images.githubusercontent.com/103790879/191971596-0b8abd50-f4c5-436b-ac25-cda98cf8d3ed.png)
+
 The heat map helps to serve as further evidence that there is a relationship.
 
 - Ultimately, the primary goal was to create a sales projection based on genre and region. In order to do this
@@ -183,9 +185,11 @@ Kurtosis:                      65.059   Cond. No.                         13.2
 
 
 Notes:
+
 [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
                   
 ==============================================================================
+
 Dep. Variable:           Global_Sales   R-squared:                       0.075
 Model:                            OLS   Adj. R-squared:                  0.054
 Method:                 Least Squares   F-statistic:                     3.501
@@ -194,10 +198,13 @@ Time:                        19:06:21   Log-Likelihood:                -853.24
 No. Observations:                 484   AIC:                             1730.
 Df Residuals:                     472   BIC:                             1781.
 Df Model:                          11                                         
-Covariance Type:            nonrobust                                         
+Covariance Type:            nonrobust  
+
 
                    coef    std err          t      P>|t|      [0.025      0.975]
+                   
 --------------------------------------------------------------------------------
+
 const            0.5522      0.109      5.070      0.000       0.338       0.766
 Adventure       -0.3460      0.311     -1.112      0.267      -0.958       0.266
 Fighting         0.0726      0.306      0.237      0.812      -0.528       0.673
@@ -218,9 +225,11 @@ Kurtosis:                      28.188   Cond. No.                         13.2
 
 
 Notes:
+
 [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
 
 ------------------------------------------------------------------------------------------------------------------
+
 - This does however mean that the accuracy is weaker than would be liked, however when these above variables were adjusted there was not a signifigant change. 
 
 - The p values do indicate that there is a relationship between sales in a particular region and the genre of a videogame. 
