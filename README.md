@@ -41,12 +41,12 @@
 
 # Machine Learning
 
-*** Description of preliminary data preprocessing***
+### Description of preliminary data preprocessing
 
 - The data was cleaned and filtered to display the three primary consoles for this analysis. 
 Data from two other sources were combined in order to create the database and add additional data points. 
 
-*** Description of preliminary feature engineering and preliminary feature selection, including their decision-making process and Description of how data was split into training and testing sets
+### Description of preliminary feature engineering and preliminary feature selection, including their decision-making process and Description of how data was split into training and testing sets
 
 - Once in python, the global and other countries categories were combined in order to create one. In order to 
 conduct the analysis of genre and sales by country, dummy variables were generated to change the 
@@ -66,21 +66,23 @@ the data was split into training variables by 0.4. This decision was based on re
 sales analysis conducted and our own data set. The reminder of the data points were used for the testing model.
 
 
-***Explanation of model choice, including limitations and benefits***
+### Explanation of model choice, including limitations and benefits
 
 - For this analysis linear regression was the model choice selected. It is a supervised machine learning model that allows for target prediction of the independent variable. Since this model can determine if a specific genre of game will sale better in a different region this model a good choice for this analysis. One of the 
 main limitations of this model is the reliance on linear relationships. It is based on the assumption that the relationships at their core are linearly connected, however this may not truly be the case.
 
-***Description of how they have trained the model thus far, and any additional training
-that will take place**** 
+### Description of how they have trained the model thus far, and any additional training
+that will take place
 
 - To keep consistent the data was split as shown below:
+- 
 X_train, X_test, y_train, y_test = train_test_split(X, y, train_size = 0.7, test_size = 0.3, random_state = 100)
 This means that the test size was 30% of the data. No additional training will be conducted in the future, however other variables such as different random states and test size were tried. These variables were however, less effective than the above ones. 
 
-***Description of final accuracy score***
+### Description of final accuracy score
                           
 ==============================================================================
+
 Dep. Variable:               NA_Sales   R-squared:                       0.092
 Model:                            OLS   Adj. R-squared:                  0.070
 Method:                 Least Squares   F-statistic:                     4.329
@@ -92,7 +94,9 @@ Df Model:                          11
 Covariance Type:            nonrobust                                         
 
                    coef    std err          t      P>|t|      [0.025      0.975]
+                   
 --------------------------------------------------------------------------------
+
 const            0.2291      0.046      4.933      0.000       0.138       0.320
 Adventure       -0.1554      0.133     -1.171      0.242      -0.416       0.105
 Fighting         0.0801      0.130      0.614      0.539      -0.176       0.336
@@ -113,8 +117,8 @@ Kurtosis:                      20.509   Cond. No.                         13.2
 
 
 Notes:
-[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
 
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
                            
 ==============================================================================
 Dep. Variable:               EU_Sales   R-squared:                       0.056
@@ -128,7 +132,9 @@ Df Model:                          11
 Covariance Type:            nonrobust                                         
 
                    coef    std err          t      P>|t|      [0.025      0.975]
+                   
 --------------------------------------------------------------------------------
+
 const            0.2244      0.050      4.489      0.000       0.126       0.323
 Adventure       -0.1331      0.143     -0.932      0.352      -0.414       0.148
 Fighting        -0.0480      0.140     -0.342      0.733      -0.324       0.228
@@ -149,10 +155,11 @@ Kurtosis:                      37.990   Cond. No.                         13.2
 
 
 Notes:
-[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
 
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
                          
 ==============================================================================
+
 Dep. Variable:               JP_Sales   R-squared:                       0.045
 Model:                            OLS   Adj. R-squared:                  0.023
 Method:                 Least Squares   F-statistic:                     2.021
@@ -164,7 +171,9 @@ Df Model:                          11
 Covariance Type:            nonrobust                                         
 
                    coef    std err          t      P>|t|      [0.025      0.975]
+                   
 --------------------------------------------------------------------------------
+
 const            0.0244      0.010      2.499      0.013       0.005       0.044
 Adventure       -0.0094      0.028     -0.337      0.736      -0.064       0.045
 Fighting         0.0368      0.027      1.341      0.181      -0.017       0.091
