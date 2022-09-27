@@ -240,7 +240,7 @@ Notes:
 - This score does however mean that the accuracy is weaker than would be liked, however when these above variables were adjusted there was not a signifigant change. This accuracy issue could be the result of the size of the intial data set, and the resulting training size. Since we limited our consoles to certain generations there was only so much data available in the first place to conduct training with.  
 
 - The p values do indicate that there is a relationship between sales in a particular region and the genre of a videogame. It is interesting to note that the p value was consistent through out the model, but North America and Japan had the better f statistic score. This could be due to the higher amount of data that is availabe for their model. In the future, more data for the other regions or focusing on specific countires would yeild more consistent data. 
-The final regression model predictions are below: 
+The final regression model predictions are below: X axis indicates sales, Y axis is the numerical representations of the genres and match thier above coefficients.  
 
 ![NA regression prediction](https://user-images.githubusercontent.com/103790879/191971978-71e88fab-123e-4f99-9dcc-bf0918586d25.png)
 
