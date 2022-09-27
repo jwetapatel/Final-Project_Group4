@@ -250,6 +250,7 @@ The final regression model predictions are below:
 
 ![GS_regression Prediction](https://user-images.githubusercontent.com/103790879/191972010-244f7722-2b9b-4039-b991-3b8e3ce5f12a.png)
 
+ - Even with the data and accuracy issues, there is evidence to suggest that hisotical sales data can be used to predict if a game will sell better in certain regions. In the United states There is a correlation between certain genres, their sales, and the country they were sold in; for example, shooting games in North America sale better than in Japan. In Europe however, sports games have a higher chance of selling better than the other countries, and this tracks with the future predictions shown in the regression model. 
 
 ## Dashboard Links :
 
