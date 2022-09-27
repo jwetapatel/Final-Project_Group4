@@ -287,7 +287,6 @@ https://public.tableau.com/app/profile/diana.villarreal1441/viz/VideoGamesSalesA
 
 ## Presentation Link:
 
-https://docs.google.com/presentation/d/1YTVxh378Mi2xpPuBV5jdmMxUdYK3iB-dB-H8gtijIBg/edit#slide=id.p
 
 
 
