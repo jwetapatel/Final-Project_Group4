@@ -82,13 +82,21 @@ This means that the test size was 30% of the data. No additional training will b
 ==============================================================================
 
 Dep. Variable:               NA_Sales   R-squared:                       0.092
+
 Model:                            OLS   Adj. R-squared:                  0.070
+
 Method:                 Least Squares   F-statistic:                     4.329
+
 Date:                Thu, 22 Sep 2022   Prob (F-statistic):           3.52e-06
+
 Time:                        18:58:48   Log-Likelihood:                -440.78
+
 No. Observations:                 484   AIC:                             905.6
+
 Df Residuals:                     472   BIC:                             955.8
+
 Df Model:                          11                                         
+
 Covariance Type:            nonrobust                                         
 
                    coef    std err          t      P>|t|      [0.025      0.975]
