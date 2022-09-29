@@ -78,130 +78,24 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, train_size = 0.7, test
 This means that the test size was 30% of the data. No additional training will be conducted in the future, however other variables such as different random states and test size were tried. These variables were however, less effective than the above ones. 
 
 ### Description of final accuracy score
+
+- North America score
                           
 ![ML 1](https://user-images.githubusercontent.com/96400887/193138950-c6577495-4e8d-40c7-91b3-92d9690c3924.png)
 
+- Europe score
 
-[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-                           
-==============================================================================
-Dep. Variable:               EU_Sales   R-squared:                       0.056
-Model:                            OLS   Adj. R-squared:                  0.034
-Method:                 Least Squares   F-statistic:                     2.567
-Date:                Thu, 22 Sep 2022   Prob (F-statistic):            0.00362
-Time:                        19:04:08   Log-Likelihood:                -476.28
-No. Observations:                 484   AIC:                             976.6
-Df Residuals:                     472   BIC:                             1027.
-Df Model:                          11                                         
-Covariance Type:            nonrobust                                         
+![ML 2](https://user-images.githubusercontent.com/96400887/193140157-37aedafc-9ddc-4bed-b73b-7f190d54633b.png)
 
-                   coef    std err          t      P>|t|      [0.025      0.975]
-                   
---------------------------------------------------------------------------------
+- Japan score
 
-const            0.2244      0.050      4.489      0.000       0.126       0.323
-Adventure       -0.1331      0.143     -0.932      0.352      -0.414       0.148
-Fighting        -0.0480      0.140     -0.342      0.733      -0.324       0.228
-Misc            -0.0237      0.126     -0.188      0.851      -0.272       0.224
-Platform         0.1275      0.148      0.859      0.391      -0.164       0.419
-Puzzle          -0.0977      0.382     -0.256      0.798      -0.848       0.652
-Racing           0.1556      0.134      1.165      0.245      -0.107       0.418
-Role-Playing     0.0042      0.107      0.039      0.969      -0.206       0.214
-Shooter          0.4307      0.103      4.183      0.000       0.228       0.633
-Simulation      -0.1472      0.253     -0.582      0.561      -0.644       0.349
-Sports           0.2110      0.098      2.161      0.031       0.019       0.403
-Strategy        -0.2010      0.224     -0.897      0.370      -0.641       0.239
+![ML 3](https://user-images.githubusercontent.com/96400887/193140176-8c9f6eb7-7d57-460f-944b-244b2f7f75ef.png)
 
-Omnibus:                      533.502   Durbin-Watson:                   1.923
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):            26816.547
-Skew:                           5.135   Prob(JB):                         0.00
-Kurtosis:                      37.990   Cond. No.                         13.2
+- Global score
+
+![ML 4](https://user-images.githubusercontent.com/96400887/193140191-872d7134-0c87-493c-87d9-8a75dfba4182.png)
 
 
-Notes:
-
-[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-                         
-==============================================================================
-
-Dep. Variable:               JP_Sales   R-squared:                       0.045
-Model:                            OLS   Adj. R-squared:                  0.023
-Method:                 Least Squares   F-statistic:                     2.021
-Date:                Thu, 22 Sep 2022   Prob (F-statistic):             0.0249
-Time:                        19:05:30   Log-Likelihood:                 313.79
-No. Observations:                 484   AIC:                            -603.6
-Df Residuals:                     472   BIC:                            -553.4
-Df Model:                          11                                         
-Covariance Type:            nonrobust                                         
-
-                   coef    std err          t      P>|t|      [0.025      0.975]
-                   
---------------------------------------------------------------------------------
-
-const            0.0244      0.010      2.499      0.013       0.005       0.044
-Adventure       -0.0094      0.028     -0.337      0.736      -0.064       0.045
-Fighting         0.0368      0.027      1.341      0.181      -0.017       0.091
-Misc             0.0262      0.025      1.062      0.289      -0.022       0.075
-Platform         0.1101      0.029      3.796      0.000       0.053       0.167
-Puzzle           0.0456      0.075      0.611      0.542      -0.101       0.192
-Racing           0.0281      0.026      1.075      0.283      -0.023       0.079
-Role-Playing     0.0370      0.021      1.771      0.077      -0.004       0.078
-Shooter          0.0329      0.020      1.636      0.102      -0.007       0.072
-Simulation      -0.0016      0.049     -0.032      0.975      -0.099       0.096
-Sports          -0.0105      0.019     -0.549      0.583      -0.048       0.027
-Strategy        -0.0144      0.044     -0.329      0.742      -0.101       0.072
-
-Omnibus:                      658.221   Durbin-Watson:                   2.013
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):            81625.084
-Skew:                           7.004   Prob(JB):                         0.00
-Kurtosis:                      65.059   Cond. No.                         13.2
-
-
-Notes:
-
-[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-                  
-==============================================================================
-
-Dep. Variable:           Global_Sales   R-squared:                       0.075
-Model:                            OLS   Adj. R-squared:                  0.054
-Method:                 Least Squares   F-statistic:                     3.501
-Date:                Thu, 22 Sep 2022   Prob (F-statistic):           0.000100
-Time:                        19:06:21   Log-Likelihood:                -853.24
-No. Observations:                 484   AIC:                             1730.
-Df Residuals:                     472   BIC:                             1781.
-Df Model:                          11                                         
-Covariance Type:            nonrobust  
-
-
-                   coef    std err          t      P>|t|      [0.025      0.975]
-                   
---------------------------------------------------------------------------------
-
-const            0.5522      0.109      5.070      0.000       0.338       0.766
-Adventure       -0.3460      0.311     -1.112      0.267      -0.958       0.266
-Fighting         0.0726      0.306      0.237      0.812      -0.528       0.673
-Misc             0.0637      0.275      0.232      0.817      -0.477       0.604
-Platform         0.4755      0.323      1.470      0.142      -0.160       1.111
-Puzzle          -0.1422      0.832     -0.171      0.864      -1.777       1.492
-Racing           0.2710      0.291      0.931      0.352      -0.301       0.843
-Role-Playing     0.0667      0.233      0.286      0.775      -0.391       0.525
-Shooter          1.1746      0.224      5.234      0.000       0.734       1.616
-Simulation      -0.3636      0.551     -0.660      0.509      -1.446       0.719
-Sports           0.4527      0.213      2.127      0.034       0.034       0.871
-Strategy        -0.4722      0.488     -0.967      0.334      -1.432       0.488
-
-Omnibus:                      456.702   Durbin-Watson:                   1.861
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):            14181.013
-Skew:                           4.146   Prob(JB):                         0.00
-Kurtosis:                      28.188   Cond. No.                         13.2
-
-
-Notes:
-
-[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-
-------------------------------------------------------------------------------------------------------------------
 
 - This score does however mean that the accuracy is weaker than would be liked, however when these above variables were adjusted there was not a signifigant change. This accuracy issue could be the result of the size of the intial data set, and the resulting training size. Since we limited our consoles to certain generations there was only so much data available in the first place to conduct training with.  
 
