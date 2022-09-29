@@ -125,6 +125,8 @@ https://public.tableau.com/app/profile/diana.villarreal1441/viz/VideoGamesSalesA
 
 ## Presentation Link:
 
+https://github.com/jwetapatel/VideoGameSalesAnalysis_based-on-Genre-vs-Region/blob/main/Presentation/Group%204%20-%20Video%20Game%20Sales%20Analysis%20(1).pptx
+
 
 
 
