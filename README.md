@@ -79,64 +79,8 @@ This means that the test size was 30% of the data. No additional training will b
 
 ### Description of final accuracy score
                           
-==============================================================================
+![ML 1](https://user-images.githubusercontent.com/96400887/193138950-c6577495-4e8d-40c7-91b3-92d9690c3924.png)
 
-Dep. Variable:               NA_Sales   R-squared:                       0.092
-
-Model:                            OLS   Adj. R-squared:                  0.070
-
-Method:                 Least Squares   F-statistic:                     4.329
-
-Date:                Thu, 22 Sep 2022   Prob (F-statistic):           3.52e-06
-
-Time:                        18:58:48   Log-Likelihood:                -440.78
-
-No. Observations:                 484   AIC:                             905.6
-
-Df Residuals:                     472   BIC:                             955.8
-
-Df Model:                          11                                         
-
-Covariance Type:            nonrobust                                         
-
-                   coef    std err          t      P>|t|      [0.025      0.975]
-                   
---------------------------------------------------------------------------------
-
-const            0.2291      0.046      4.933      0.000       0.138       0.320
-
-Adventure       -0.1554      0.133     -1.171      0.242      -0.416       0.105
-
-Fighting         0.0801      0.130      0.614      0.539      -0.176       0.336
-
-Misc             0.0727      0.117      0.620      0.535      -0.158       0.303
-
-Platform         0.2200      0.138      1.595      0.111      -0.051       0.491
-
-Puzzle          -0.0425      0.355     -0.120      0.905      -0.740       0.655
-
-Racing           0.0780      0.124      0.628      0.530      -0.166       0.322
-
-Role-Playing     0.0223      0.099      0.225      0.822      -0.173       0.218
-
-Shooter          0.5752      0.096      6.010      0.000       0.387       0.763
-
-Simulation      -0.1606      0.235     -0.684      0.495      -0.622       0.301
-
-Sports           0.1881      0.091      2.072      0.039       0.010       0.366
-
-Strategy        -0.1891      0.208     -0.908      0.364      -0.598       0.220
-
-Omnibus:                      393.827   Durbin-Watson:                   1.809
-
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):             7172.279
-
-Skew:                           3.503   Prob(JB):                         0.00
-
-Kurtosis:                      20.509   Cond. No.                         13.2
-
-
-Notes:
 
 [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
                            
